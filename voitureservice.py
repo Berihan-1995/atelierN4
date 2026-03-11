@@ -57,4 +57,7 @@ class Voiture:
         v2=Voiture("Fv874","2023","honda","21550")
         v3=Voiture("LJ854","20235","honda","21547")
 
+        e1.affecterVoiture(v1)
+        e2.affecterVoiture(v2)
+        e3.affecterVoiture(v3)
 
