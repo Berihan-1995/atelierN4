@@ -61,3 +61,14 @@ class Voiture:
         e2.affecterVoiture(v2)
         e3.affecterVoiture(v3)
 
+        e1.afficherInformations()
+        e2.afficherInformations()
+        e3.afficherInformations()
+
+        e1.retirerVoiture()
+        e1.afficherInformations()
+        e2.afficherInformations()
+
+        e1.retirerVoiture()
+        e1.afficherInformations()
+
