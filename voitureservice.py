@@ -32,5 +32,12 @@ class Employe:
             self.voitureService = None
         else:
             print(f"{self.nom} {self.prenom} na pas voiture a retirer")
+class Voiture:
+    def __init__(self, matricule, annee, marque, kilometrage):
+        self.matricule = matricule
+        self.annee = annee
+        self.marque = marque
+        self.kilometrage = kilometrage
+        self.chauffeur = None
 
 
