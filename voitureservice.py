@@ -49,5 +49,12 @@ class Voiture:
         else:
             print("aucun chauffeur")
 
+        e1=Employe("ON920", "CHERIF","berihan")
+        e2=Employe("QC928", "CHERIFa","ber")
+        e3=Employe("NB750", "CHEche","berhaha")
+
+        v1=Voiture("Fv854","2021","audi","2100")
+        v2=Voiture("Fv874","2023","honda","21550")
+        v3=Voiture("LJ854","20235","honda","21547")
 
 
