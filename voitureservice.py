@@ -25,4 +25,12 @@ class Employe:
         voiture.chauffeur = self
         print(f"la voiture {voiture.matricule} est deja affecte a {self.nom} {self.prenom}")
 
+    def retirerVoiture(self):
+        if self.voitureService != None:
+            print(f"la voiture {self.voitureService.matricule} a ete retirer de {self.nom} {self.prenom}")
+            self.voitureService.chauffeur = None
+            self.voitureService = None
+        else:
+            print(f"{self.nom} {self.prenom} na pas voiture a retirer")
+
 
